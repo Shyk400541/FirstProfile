@@ -1,0 +1,10 @@
+<?php
+
+use Drupal\user\Entity\User;
+use Drupal\shortcut\Entity\Shortcut;
+
+function first_profile_install(){
+	include_once DRUPAL_ROOT.'\core\profiles\standard\standard.install';
+	standard_install();
+
+}

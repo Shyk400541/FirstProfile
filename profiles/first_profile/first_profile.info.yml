@@ -1,0 +1,55 @@
+name: 'My First Profile'
+type: profile
+description: 'Stantart and new'
+core: 8.x
+
+distribution:
+  name: 'Simple Distribution'
+  langcode: 'en'
+
+install:
+  - node
+  - history
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - comment
+  - contextual
+  - contact
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+
+dependencies:
+  - hacked
+  - devel
+  - shield
+  - admin_toolbar
+
+themes:
+  - bartik
+  - seven
